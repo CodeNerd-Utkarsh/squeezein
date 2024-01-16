@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Inter, Quicksand, Roboto } from 'next/font/google'
+import { Quicksand, Roboto } from 'next/font/google'
 import './globals.css'
 
 const roboto = Roboto({
@@ -8,13 +8,13 @@ const roboto = Roboto({
   display: 'swap',
   weight: ['400', '700']
 })
-const quickSand = Quicksand({
-  style: ['normal',],
-  subsets: ['latin'],
-  display: 'swap',
-  weight: ['400', '700']
+// const quickSand = Quicksand({
+//   style: ['normal',],
+//   subsets: ['latin'],
+//   display: 'swap',
+//   weight: ['400', '700']
 
-})
+// })
 
 export const metadata: Metadata = {
   title: 'Squeezein',
@@ -28,7 +28,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${roboto.className} ${quickSand.className}`}>{children}</body>
+      <body className={`${roboto.className} `}>{children}</body>
     </html>
   )
 }

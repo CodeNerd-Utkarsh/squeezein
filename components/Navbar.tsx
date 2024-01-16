@@ -3,7 +3,7 @@ import React from 'react'
 function Navbar() {
     return (
         <>
-            <nav className='flex item-center h-[6rem] w-full justify-between text-[#253D4E] text-[1.25rem] font-[500] leading-[1.5rem]'>
+            <nav className='flex item-center h-[6rem] w-full justify-between text-[#253D4E] text-[1.25rem] font-[500] leading-[1.5rem]  '>
                 <div className="logo flex items-center gap-4 ">
                     <svg xmlns="http://www.w3.org/2000/svg" width="64" height="37" viewBox="0 0 64 37" fill="none">
                         <g clip-path="url(#clip0_9_9680)">

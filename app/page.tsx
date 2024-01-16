@@ -1,11 +1,12 @@
-import Navbar from '@/components/Navbar'
-import Image from 'next/image'
+import HeroSection from "@/components/HeroSection";
+import ServicesSection from "@/components/ServicesSection";
+
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-12 bg-white">
-      <Navbar />
-    </main>
+    <>
+      <HeroSection />
+      <ServicesSection />
+    </>
   )
 }
-
